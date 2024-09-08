@@ -1,3 +1,41 @@
-<p>
-    hello world
-</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Minotaur's Labyrinth</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>The Minotaur's Labyrinth</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="labyrinth.html">Explore the Labyrinth</a></li>
+                <li><a href="clues.html">Find Clues</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Enter the Myth of the Minotaur</h2>
+        <p>Deep within the heart of Crete lies the fabled labyrinth, designed to imprison the fearsome Minotaur. Many have entered, but none have returned. Can you navigate its deadly corridors and uncover the secret to defeating the beast?</p>
+        
+        <p><strong>Tip:</strong> The key to finding your way lies not in strength, but in wisdom. Explore every corner and follow the clues hidden across the pages.</p>
+
+        <h3>Where would you like to go first?</h3>
+        <select onchange="window.location.href=this.value;">
+            <option value="#">Choose a path</option>
+            <option value="labyrinth.html">Explore the Labyrinth</option>
+            <option value="clues.html">Gather Clues</option>
+        </select>
+
+        <img src="images/minotaur.jpg" alt="Minotaur image" width="300">
+    </main>
+
+    <footer>
+        <p>Can you escape the labyrinth and defeat the Minotaur?</p>
+    </footer>
+</body>
+</html>

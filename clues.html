@@ -32,6 +32,16 @@
 
         <p><strong>Clue 3:</strong> The labyrinth is a tedious maze that can only be navigated with strategy, not force. Use your resources to find the right path.</p>
 
+        <h3>Select Your Path</h3>
+        <p>Choose a path or strategy below to gather more information and find your way:</p>
+
+        <select onchange="window.location.href=this.value;">
+            <option value="#">Select a path...</option>
+            <option value="about.html">Learn About the Minotaur</option>
+            <option value="labyrinth.html">Explore the Labyrinth</option>
+            <option value="index.html">Return to the Home Page</option>
+        </select>
+
         <h3>Can you unlock the secrets?</h3>
         <ul>
             <li><a href="labyrinth.html">Return to the Labyrinth</a></li>
@@ -39,8 +49,5 @@
         </ul>
     </main>
 
-    <footer>
-        <p>Use all the clues to solve the riddles and escape the labyrinth.</p>
-    </footer>
 </body>
 </html>

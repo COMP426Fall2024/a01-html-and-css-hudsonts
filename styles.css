@@ -1,22 +1,22 @@
-/* General page styles */
+/* General page styles, making sure to use a special font to get multiple on the page */
 body {
-    background-color: #D2B48C; /* Light coffee brown */
+    background-color: #D2B48C; 
     font-family: 'Georgia', serif;
     color: #333333;
     margin: 0;
     padding: 0;
 }
 
-/* Header styling */
+/* Controls the style of the header on each page */
 header {
-    background-color: #8B4513; /* Saddle brown */
+    background-color: #8B4513; 
     padding: 20px;
     text-align: center;
     color: white;
-    border-bottom: 4px solid #5A2D0C; /* Dark brown border */
+    border-bottom: 4px solid #5A2D0C; 
 }
 
-/* Navigation bar styles */
+/* Controls the styles of the navigation bar */
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -33,26 +33,27 @@ nav ul li a {
     font-weight: bold;
 }
 
+/* Creates a gold hover effect over the header text */
 nav ul li a:hover {
-    color: #FFD700; /* Gold hover effect */
+    color: #FFD700; 
 }
 
-/* Main content */
+/* Main content, making sure to use a different font this time */
 main {
     padding: 20px;
-    font-family: 'Arial', sans-serif; /* Second font */
+    font-family: 'Arial', sans-serif; 
 }
 
 /* Images */
 main img {
-    border: 3px solid #5A2D0C; /* Dark brown border */
+    border: 3px solid #5A2D0C; 
     width: 100%;
     max-width: 500px;
     margin: 20px auto;
     display: block;
 }
 
-/* Table styling */
+/* CSS to style the tables used on the index tab */
 table {
     width: 100%;
     max-width: 600px;
@@ -73,10 +74,10 @@ table th {
 }
 
 table td {
-    background-color: #F0E68C; /* Khaki */
+    background-color: #F0E68C; 
 }
 
-/* Footer */
+/* Creates guidelines for footers for some pages */
 footer {
     background-color: #8B4513;
     color: white;
@@ -88,39 +89,39 @@ footer {
     font-family: 'Georgia', serif;
 }
 
-/* Class-based selector */
+/* Get points to satisfy a class-based selector */
 .highlight {
-    background-color: #FFE4B5; /* Moccasin */
+    background-color: #FFE4B5; 
     padding: 10px;
     border-radius: 5px;
-    border: 2px solid #DEB887; /* BurlyWood */
+    border: 2px solid #DEB887;
 }
 
-/* ID-based selector */
+/* To check off the ID-based selector */
 #special-note {
-    color: #8B0000; /* Dark red */
+    color: #8B0000;
     font-weight: bold;
 }
 
-/* Pseudo-class for links */
+/* Creates a special hover class for links */
 a:hover {
-    color: #FFD700; /* Gold */
+    color: #FFD700; 
     font-style: italic;
 }
 
-/* Hierarchical selector: header h1 */
+/* Creates a hierarchical selector for h1 */
 header h1 {
     font-size: 2.5em;
     margin: 0;
 }
 
-/* Control width and height */
+/* Control width and height of image */
 main img {
-    width: 90%; /* Controls image width */
+    width: 90%; 
     height: auto;
 }
 
-/* Additional pseudo-class for table row hover */
+/* Additional hovering for the tables */
 table tr:hover {
-    background-color: #D2691E; /* Chocolate */
+    background-color: #D2691E; 
 }

@@ -1,0 +1,126 @@
+/* General page styles */
+body {
+    background-color: #D2B48C; /* Light coffee brown */
+    font-family: 'Georgia', serif;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #8B4513; /* Saddle brown */
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-bottom: 4px solid #5A2D0C; /* Dark brown border */
+}
+
+/* Navigation bar styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* Gold hover effect */
+}
+
+/* Main content */
+main {
+    padding: 20px;
+    font-family: 'Arial', sans-serif; /* Second font */
+}
+
+/* Images */
+main img {
+    border: 3px solid #5A2D0C; /* Dark brown border */
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+    display: block;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: 'Arial', sans-serif;
+}
+
+table th, table td {
+    border: 2px solid #5A2D0C;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #8B4513;
+    color: white;
+}
+
+table td {
+    background-color: #F0E68C; /* Khaki */
+}
+
+/* Footer */
+footer {
+    background-color: #8B4513;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Georgia', serif;
+}
+
+/* Class-based selector */
+.highlight {
+    background-color: #FFE4B5; /* Moccasin */
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #DEB887; /* BurlyWood */
+}
+
+/* ID-based selector */
+#special-note {
+    color: #8B0000; /* Dark red */
+    font-weight: bold;
+}
+
+/* Pseudo-class for links */
+a:hover {
+    color: #FFD700; /* Gold */
+    font-style: italic;
+}
+
+/* Hierarchical selector: header h1 */
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Control width and height */
+main img {
+    width: 90%; /* Controls image width */
+    height: auto;
+}
+
+/* Additional pseudo-class for table row hover */
+table tr:hover {
+    background-color: #D2691E; /* Chocolate */
+}

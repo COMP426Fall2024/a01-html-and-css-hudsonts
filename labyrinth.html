@@ -25,68 +25,52 @@
         <p><strong>Hint:</strong> You may find clues scattered throughout the various pages of this website!</p>
 
         <img src="https://etc.usf.edu/clipart/49300/49301/49301_graph_1010c_lg.gif" alt="Labyrinth Grid" width="500">
+        <h3>Question 1: Who built the labyrinth that housed the Minotaur?</h3>
+        <label>
+            <input type="radio" name="q1" value="A"> A) Daedalus (Add 2 to x, subtract 1 from y)
+        </label><br>
+        <label>
+            <input type="radio" name="q1" value="B"> B) King Minos (Add 1 to x, add 1 to y)
+        </label><br>
+        <label>
+            <input type="radio" name="q1" value="C"> C) Theseus (Subtract 1 from x, add 2 to y)
+        </label><br>
+        <label>
+            <input type="radio" name="q1" value="D"> D) Hercules (Add 1 to x, subtract 2 from y)
+        </label>
 
-        <!-- Multiple-choice questions -->
-        <form id="labyrinth-quiz">
-            <h3>Question 1: Who built the labyrinth that housed the Minotaur?</h3>
-            <label>
-                <input type="radio" name="q1" value="A"> A) Daedalus (Add 2 to x, subtract 1 from y)
-            </label><br>
-            <label>
-                <input type="radio" name="q1" value="B"> B) King Minos (Add 1 to x, add 1 to y)
-            </label><br>
-            <label>
-                <input type="radio" name="q1" value="C"> C) Theseus (Subtract 1 from x, add 2 to y)
-            </label><br>
-            <label>
-                <input type="radio" name="q1" value="D"> D) Hercules (Add 1 to x, subtract 2 from y)
-            </label>
+        <h3>Question 2: What was the name of the Minotaur's mother?</h3>
+        <label>
+            <input type="radio" name="q2" value="A"> A) Pasiphaë (Add 3 to x, subtract 1 from y)
+        </label><br>
+        <label>
+            <input type="radio" name="q2" value="B"> B) Ariadne (Add 2 to x, subtract 2 from y)
+        </label><br>
+        <label>
+            <input type="radio" name="q2" value="C"> C) Europa (Add 1 to x, add 3 to y)
+        </label><br>
+        <label>
+            <input type="radio" name="q2" value="D"> D) Rhea (Subtract 2 from x, add 2 to y)
+        </label>
 
-            <h3>Question 2: What was the name of the Minotaur's mother?</h3>
-            <label>
-                <input type="radio" name="q2" value="A"> A) Pasiphaë (Add 3 to x, subtract 1 from y)
-            </label><br>
-            <label>
-                <input type="radio" name="q2" value="B"> B) Ariadne (Add 2 to x, subtract 2 from y)
-            </label><br>
-            <label>
-                <input type="radio" name="q2" value="C"> C) Europa (Add 1 to x, add 3 to y)
-            </label><br>
-            <label>
-                <input type="radio" name="q2" value="D"> D) Rhea (Subtract 2 from x, add 2 to y)
-            </label>
+        <h3>Question 3: How did Theseus navigate the labyrinth?</h3>
+        <label>
+            <input type="radio" name="q3" value="A"> A) He used a map (Add 1 to x, subtract 1 from y)
+        </label><br>
+        <label>
+            <input type="radio" name="q3" value="B"> B) He used a ball of thread (Add 2 to x, add 1 to y)
+        </label><br>
+        <label>
+            <input type="radio" name="q3" value="C"> C) He followed the Minotaur’s footsteps (Subtract 1 from x, subtract 2 from y)
+        </label><br>
+        <label>
+            <input type="radio" name="q3" value="D"> D) He listened to the Minotaur's roar (Add 3 to x, add 2 to y)
+        </label>
 
-            <h3>Question 3: How did Theseus navigate the labyrinth?</h3>
-            <label>
-                <input type="radio" name="q3" value="A"> A) He used a map (Add 1 to x, subtract 1 from y)
-            </label><br>
-            <label>
-                <input type="radio" name="q3" value="B"> B) He used a ball of thread (Add 2 to x, add 1 to y)
-            </label><br>
-            <label>
-                <input type="radio" name="q3" value="C"> C) He followed the Minotaur’s footsteps (Subtract 1 from x, subtract 2 from y)
-            </label><br>
-            <label>
-                <input type="radio" name="q3" value="D"> D) He listened to the Minotaur's roar (Add 3 to x, add 2 to y)
-            </label>
+        <p>Calculate your final coordinate and click <a href="answer.html">here</a> to see if you've found the exit!</p>
 
-            <!-- Add button to check the answer -->
-            <button type="submit" onclick="checkAnswer()">Check My Answer</button>
-        </form>
-
-        <!-- Placeholder for the link to answer.html -->
-        <div id="result-link" style="display: none;">
-            <p>Click <a href="answer.html">here</a> to see if you've found the exit!</p>
-        </div>
     </main>
 
-    <script>
-        function checkAnswer() {
-            event.preventDefault(); // Prevent form submission
-            // Show the link to the answer page
-            document.getElementById('result-link').style.display = 'block';
-        }
-    </script>
 </body>
 </html>
 
